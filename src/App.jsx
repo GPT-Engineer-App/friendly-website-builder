@@ -4,7 +4,6 @@ import CombinedPage from "./pages/CombinedPage.jsx"; // Import the CombinedPage 
 function App() {
   return (
     <Router>
-      <TopBar /> {/* Add the TopBar component here */}
       <Routes>
         <Route exact path="/" element={<CombinedPage />} />
       </Routes>
